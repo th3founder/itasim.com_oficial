@@ -1,0 +1,24 @@
+{
+  "name": "itasim.com_oficial",
+  "version": "1.0.0",
+  "description": "Itasim.com | servicios de aire acondicionado, refrigeración, climatización y electromecánicos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w css/sass/ -o css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/th3founder/itasim.com_oficial.git"
+  },
+  "author": "Alvaro Ibañes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/th3founder/itasim.com_oficial/issues"
+  },
+  "homepage": "https://github.com/th3founder/itasim.com_oficial#readme",
+  "dependencies": {
+    "g": "^2.0.1",
+    "node-sass": "^6.0.1"
+  }
+}
