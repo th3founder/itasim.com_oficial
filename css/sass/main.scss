@@ -5,8 +5,11 @@
 @import "base/base";
 @import "base/typography";
 @import "base/utilities";
+@import "base/mediaqueries";
 
-@import "layaout/footer";
-@import "layaout/header";
-@import "layaout/homePage";
-@import "layaout/main";
+@import "components/btns";
+
+@import "layout/footer";
+@import "layout/header";
+@import "layout/homePage";
+@import "layout/main";

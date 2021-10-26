@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- link font-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <title>itasim | Servicios de refrigeración y electromecánicos</title>
     
 </head>
@@ -15,21 +17,21 @@
     <header class="header">
         <nav class="header_navbar">
             <div class="header_navbarContainer">
-                <div class="header_navbarContainer_first">
+                <div onclick="" class="header_navbarContainer_first">
                     <div class="header_navbarContainer_firstLogo">
-
+                        <a href="#"><div style="background: url(./img/itasim.png) no-repeat center; width: 16rem;height: 6rem; background-size: cover;"></div></a>
                     </div>
                 </div>
                 <div class="header_navbarContainer_second">
                     <div class="header_navbarContainer_secondLinks">
-                        <ul>
-                           <li><a href="" class="header_navbarContainer_secondLinks_items">Nosotros</a></li>
-                           <li><a href="" class="header_navbarContainer_secondLinks_items">Beneficios</a></li>
-                           <li><a href="" class="header_navbarContainer_secondLinks_items">Pasos a seguir</a></li>    
-                        </ul>
                     </div>
                 </div>
-                <div class="header_navbarContainer_hamburguer"></div>
+                <div class="header_navbarContainer_btn">
+                    <a href="" class="btn btn-contact">Contactanos <i style="font-size: 1.8rem;" class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="header_navbarContainer_hamburguer">
+                    <a onclick="hamburguer()"><i style="font-size: 4rem; color: #34495E;"class="fas fa-bars"></i></a>
+                </div>
             </div>
         </nav>
     </header>
@@ -39,5 +41,6 @@
     <footer>
 
     </footer>
+    <script src="js/index.js"></script>
 </body>
 </html>
