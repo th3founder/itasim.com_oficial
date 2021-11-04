@@ -1,7 +1,30 @@
 body
 {
-  font-family: 'Karla', sans-serif;
+  font-family: 'Spartan', sans-serif;
   font-weight:400;
   line-height: 1.8;
   background-color: $background-color;
+}
+body::-webkit-scrollbar
+{
+  width: 0;
+}
+h2
+{
+  color: $primary-color;
+}
+.mainHeader
+{
+  line-height: 8.8rem;
+  font-weight: 600;
+  font-size: 9.4rem;
+  text-align: left;
+}
+.changin
+{
+  color: $secundary-color !important;
+}
+.txt
+{
+  display: block;
 }

@@ -1,5 +1,8 @@
 .header
 {
+    z-index: 10;
+    background-color: $background-transparenty-color;
+    backdrop-filter: blur(6px);
     //list stuff
     & li
     {
@@ -8,7 +11,7 @@
         //anchor decoration
         & a
         {
-            font-size: 2rem;
+            font-size: 1.75rem;
             line-height: 2.4rem;
             font-weight: 500;
             color: $font-color;

@@ -1,7 +1,9 @@
 const menu=`<ul>
 <li><a href="" class="header_navbarContainer_secondLinks_items">Nosotros</a></li>
 <li><a href="" class="header_navbarContainer_secondLinks_items">Beneficios</a></li>
-<li><a href="" class="header_navbarContainer_secondLinks_items">Pasos a seguir</a></li>    
+<li><a href="" class="header_navbarContainer_secondLinks_items">Pasos a seguir</a></li>
+<li><a href="" class="header_navbarContainer_secondLinks_items">Empresas</a></li> 
+<li><a href="" class="header_navbarContainer_secondLinks_items">Socio instalador</a></li>       
 </ul>`;
 document.addEventListener('DOMContentLoaded', init);
 function init()
@@ -23,5 +25,4 @@ function hamburguer()
         appear=0;
         hide=true
     }
-    console.log(appear);
 }

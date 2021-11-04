@@ -1,0 +1,17 @@
+.main
+{
+    &_container
+    {
+        display: flex;
+        flex-direction: column;
+        &First
+        {
+            width: 100%;
+            height: 85vh;
+            &Container
+            {
+                padding: 0 3rem 0;
+            }
+        }   
+    }
+}
